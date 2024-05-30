@@ -28,8 +28,8 @@ function Navbar() {
                         </NavLink>
                         <NavLink className="navbar__item">
                             <IoPersonOutline />
-                        </NavLink>
-                        <NavLink className="navbar__item">
+                        </NavLink >
+                        <NavLink className="navbar__item" to={"/wishlist"}>
                             <FaRegHeart />
                         </NavLink>
                         <NavLink className="navbar__item">
@@ -45,9 +45,8 @@ function Navbar() {
 export default Navbar
 // import React from 'react'
 // import { useSelector } from 'react-redux'
-// // import "./Navbar.css"
 // import { FaRegHeart } from "react-icons/fa";
-// // import { IoCartOutline } from "react-icons/io5";
+// import { IoCartOutline } from "react-icons/io5";
 // import { NavLink } from 'react-router-dom';
 
 // const Navbar = () => {
@@ -57,12 +56,12 @@ export default Navbar
 //         <NavLink className="navbar__logo" to={"/"}>
 //           <span>Logo</span>
 //         </NavLink>
-//         {/* <NavLink to={"/wishlist"}>
+//         <NavLink to={"/wishlist"}>
 //           <FaRegHeart/>
-//         </NavLink> */}
-//         {/* <NavLink to={"/cart"}>
+//         </NavLink>
+//         <NavLink to={"/cart"}>
 //           <IoCartOutline/>
-//         </NavLink> */}
+//         </NavLink>
 //     </div>
 //   )
 // }
