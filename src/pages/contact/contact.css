@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.contact-page{
+    max-width: 1252px;
+    height: 715.62px;
+    top: 385px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.contact-h1{
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56.35px;
+    padding-top: 100px;
+    padding-left: 86px;
+    color: #FFFFFF;
+}
+.contact-email{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    padding-top: 56px;
+    padding-left: 86px;
+    color: #FFFFFF;
+}
+.contact-tel{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    padding-top: 36px;
+    padding-left: 86px;
+    color: #FFFFFF;
+}
+.contact-p{
+    width: 234px;
+    height: 32px;
+    top: 749px;
+    left: 194px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    padding-left: 86px;
+    padding-top: 39px;
+    color: #FFFFFF;
+}
+.contact{
+    background-color: #40BFFF;
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+.contact1{
+    width: 600px;
+    height: 600px;
+}
+.contact-input{
+    width: 500px;
+    height: 73.17px;
+    top: 518.17px;
+    left: 784.38px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+    margin-left: 20px;
+    padding-left: 25px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    outline: none;
+}
+.contact-input:hover{
+    border: 3px solid #40BFFF;
+    transition: all .2s linear;
+}
+.contact-label{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+    padding-left: 20px;
+    padding-top: 45px;
+    color: #373737;
+}
+.contact-button{
+    width: 500px;
+    color: #FFFFFF;
+    background-color: #40BFFF;
+    border: 2px solid #40BFFF;
+    margin-left: 20px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+}
+@media (max-width: 900px) and (min-width: 330px) {
+    .contact{
+        display: none;
+    }
+}
+@media (max-width: 685px) and (min-width: 330px) {
+    .contact-input{
+        width: 400px;
+        margin-left: -50px;
+    }
+    .contact-button{
+        width: 400px;
+        margin-left: -50px;
+    }
+}
+@media (max-width: 585px) and (min-width: 330px) {
+    .contact-input{
+        width: 320px;
+        margin-left: -100px;
+    }
+    .contact-button{
+        width: 320px;
+        margin-left: -100px;
+    }
+    .contact-label{
+        padding-top: 25px;
+    }
+}

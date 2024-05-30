@@ -1,0 +1,7 @@
+.banner__swiper video,
+.banner__swiper img {
+    margin-top: 15px;
+    width: 1510px;
+    height: 651px;
+    object-fit: cover;
+}

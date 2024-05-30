@@ -1,0 +1,101 @@
+.mainCards{
+    padding-top: 50px;
+    max-width: 1100px;
+    padding-left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainCard{
+    width: 250px;
+}
+.mainCard-h4{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 40.5px;
+    text-align: left;
+    color: #22262A;
+}
+.mainCard-p{
+    max-width: 197.56px;
+    height: 96.32px;
+    top: 3119.34px;
+    left: 636.59px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: center;
+}
+.mainCard-img{
+    padding-left: 55px;
+}
+.main{
+    padding-top: 50px;
+    padding-left: 20px;
+    gap: 40px;
+    max-width: 800px;
+    display: flex;
+}
+.bottomCards{
+    display: flex;
+    padding-bottom: 80px;
+}
+.buttom-p{
+    width: 180.56px;
+    height: 96.32px;
+    top: 3522.17px;
+    left: 321.21px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: left;
+}
+.buttom-h3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #C1C8CE;
+}
+.buttom-h4{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    width: 280px;
+}
+.main-h1{
+    padding-top: 80px;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    text-align: center;
+}
+.rate{
+    padding-left: 25px;
+    width: 110px;
+}
+.price{
+    padding-left: 25px;
+}
+@media (max-width: 1140px) and (min-width: 330px) {
+    .mainCards{
+        display: none;
+    }
+    .main{
+        flex-wrap: wrap !important;
+    }
+    .bottomCards{
+        flex-wrap: wrap;
+    }
+}

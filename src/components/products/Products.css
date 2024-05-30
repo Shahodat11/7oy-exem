@@ -1,0 +1,93 @@
+.cardd{
+    margin-top: 30px;
+    max-width: 265px;
+    height: 385px;
+    top: 82.39px;
+    left: 334px;
+    gap: 0px;
+    border-radius: 15px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #ECECEC;
+}
+.title{
+    margin-left: 10px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+.rating{
+    padding-left: 10px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    margin-top: -25px;
+    color: goldenrod;
+}
+.p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #3BB77E;
+}
+.price{
+    display: flex;
+}
+.price-narx{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.4px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-left: 7px;
+    color: #40BFFF;
+}
+.price-skidka{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 3px;
+    color: #9098B1;
+}
+.price-foiz{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 3px;
+    color: #FB7181;
+}
+.product-button{
+    width: 200px;
+    height: 3px;
+    top: 2155px;
+    left: 698px;
+    gap: 0px;
+    opacity: 0px;
+    color: #33A0FF;
+    text-align: center;
+    font-family: Poppins;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding-bottom: 100px;
+}
