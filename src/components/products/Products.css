@@ -72,25 +72,6 @@
     padding-left: 3px;
     color: #FB7181;
 }
-.product-button{
-    width: 200px;
-    height: 3px;
-    top: 2155px;
-    left: 698px;
-    gap: 0px;
-    opacity: 0px;
-    color: #33A0FF;
-    text-align: center;
-    font-family: Poppins;
-    margin-left: 25px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    background-color: #fff;
-    border: 2px solid #fff;
-    padding-bottom: 100px;
-}
 .like{
     width: 20px;
     height: 20px;

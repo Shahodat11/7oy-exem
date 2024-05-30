@@ -42,7 +42,6 @@ let wishlist = useSelector(state => state.wishlist.value)
     < >
     {loading?<Skeleton count={10}/>:<></>}
         <div className='cards1 container' style={{display: 'flex', gap: "16px", flexWrap: 'wrap'}}>{products}</div>
-        <button className='product-button'>LOAD MORE</button>
     </>
   )
 }
