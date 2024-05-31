@@ -7,7 +7,8 @@ import Single from './pages/single/Single'
 import Auth from './pages/auth/Auth'
 import Contact from './pages/contact/Contact'
 import Wishlist from './pages/wishlist/Wishlist'
-// import Cart from './pages/cart/Cart'
+import Cart from './pages/cart/Cart'
+import Checkout from './pages/checkout/Checkout'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
           <Route path='/Admin' element={<Admin/>}/>
         </Route>
         <Route path='/wishlist' element={<Wishlist/>}/>
-        {/* <Route path='/cart' element={<Cart/>}/> */}
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/single/:id' element={<Single/>}/>
       </Routes>

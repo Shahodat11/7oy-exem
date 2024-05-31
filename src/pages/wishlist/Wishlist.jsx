@@ -22,7 +22,7 @@ const Wishlist = () => {
         ? 
         <Products title="Sevimlilar" data={wishlist}/>
         :
-        <Empty text="Wishlist"/>
+        <Empty className='empty' text="We didn't find what you were looking for :("/>
       }
     </div>
       <Footer/>

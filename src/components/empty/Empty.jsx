@@ -5,7 +5,7 @@ const Empty = ({text}) => {
   return (
     <div className='empty'>
         <h2>{text}</h2>
-        <p>Lorem ipsum dolor sit.</p>
+        <p className='empty-p'>There may be an error in the product name or we don't have such a product yet</p>
     </div>
   )
 }

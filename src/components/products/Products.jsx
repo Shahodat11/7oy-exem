@@ -7,6 +7,7 @@ import { IoCartOutline } from "react-icons/io5";
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleLike } from '../../context/wishlistSlice';
 import { FaHeart } from 'react-icons/fa';
+import { addToCart } from '../../context/cartSlice';
 
 const Products = ({data, loading}) => {
   console.log(data);
@@ -27,8 +28,8 @@ let wishlist = useSelector(state => state.wishlist.value)
           <FaRegHeart className='like-img'/>
         }
     </button>
-    <button className='cart'>
-      <IoCartOutline className='cart-img' />
+    <button  onClick={()=> dispatch(addToCart(el))} className='cart-button'>
+      <IoCartOutline className='cart-imgg' />
     </button>
     <p className='product-title' style={{padding: '13px 0'}}>{el.title}</p>
     <p className='rating'>Rating {el.rating.rate}</p>

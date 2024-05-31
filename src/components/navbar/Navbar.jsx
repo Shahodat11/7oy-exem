@@ -32,7 +32,7 @@ function Navbar() {
                         <NavLink className="navbar__item" to={"/wishlist"}>
                             <FaRegHeart />
                         </NavLink>
-                        <NavLink className="navbar__item">
+                        <NavLink className="navbar__item" to={"/cart"}>
                             <IoCartOutline />
                         </NavLink>
                     </div>

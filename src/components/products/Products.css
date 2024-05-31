@@ -7,6 +7,7 @@
     border-radius: 15px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
+    margin-bottom: 50px;
     border: 1px solid #ECECEC;
 }
 .product-title{
@@ -80,7 +81,7 @@
     padding-left: 5px;
     padding-top: 5px;
 }
-.cart{
+.cart-button{
     width: 20px;
     height: 20px;
     background-color: #fff;
@@ -88,7 +89,7 @@
     padding-left: 5px;
     padding-top: 5px;
 }
-.cart-img{
+.cart-imgg{
     color: #777;
 }
 .like-img{

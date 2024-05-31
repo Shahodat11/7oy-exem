@@ -35,7 +35,6 @@
 .single__imgg{
     margin-top: 40px;
     width: 300.75px;
-    height: 255.68px;
     padding: 1px;
     gap: 0px;
     border-radius: 15px;
@@ -44,7 +43,6 @@
 }
 .single__img{
     width: 100px;
-    height: 100px;
     left: 286px;
     gap: 0px;
     border-radius: 15px 0px 0px 0px;
@@ -156,7 +154,6 @@
 }
 .single__img1 {
     width: 283.75px;
-    height: 239.68px;
     margin-top: 40px;
     gap: 0px;
     border-radius: 5px ;
